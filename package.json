@@ -1,0 +1,55 @@
+{
+	"name": "unplugin-paraglide-nesting",
+	"version": "1.0.0",
+	"description": "",
+	"type": "module",
+	"scripts": {
+		"build": "tsc && publint",
+		"prepack": "pnpm build"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"files": [
+		"./dist"
+	],
+	"exports": {
+		"./esbuild": {
+			"types": "./dist/esbuild.d.ts",
+			"import": "./dist/esbuild.js"
+		},
+		"./rolldown": {
+			"types": "./dist/rolldown.d.ts",
+			"import": "./dist/rolldown.js"
+		},
+		"./rollup": {
+			"types": "./dist/rollup.d.ts",
+			"import": "./dist/rollup.js"
+		},
+		"./rspack": {
+			"types": "./dist/rspack.d.ts",
+			"import": "./dist/rspack.js"
+		},
+		"./vite": {
+			"types": "./dist/vite.d.ts",
+			"import": "./dist/vite.js"
+		},
+		"./webpack": {
+			"types": "./dist/webpack.d.ts",
+			"import": "./dist/webpack.js"
+		}
+	},
+	"devDependencies": {
+		"@types/node": "^22.13.9",
+		"acorn": "^8.14.0",
+		"publint": "^0.3.8",
+		"typescript": "^5.8.2",
+		"vite": "^6.2.0"
+	},
+	"dependencies": {
+		"@inlang/paraglide-js": "2.0.0-beta.26",
+		"magic-string": "^0.30.17",
+		"unplugin": "^2.2.0",
+		"zimmerframe": "^1.1.2"
+	}
+}
