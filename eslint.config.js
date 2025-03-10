@@ -9,5 +9,5 @@ export default defineConfig([
 	{ languageOptions: { globals: { ...globals.node } } },
 	pluginJs.configs.recommended,
 	...tseslint.configs.recommended,
-	globalIgnores(['dist']),
+	globalIgnores(['dist', 'pnpm-lock.yaml']),
 ]);
