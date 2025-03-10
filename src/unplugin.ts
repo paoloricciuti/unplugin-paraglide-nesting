@@ -40,14 +40,14 @@ export const unpluginFactory: UnpluginFactory<Options> = ({ outdir }) => ({
 											'Identifier' &&
 										specifier.imported.name === 'm'
 									);
-								}
+								},
 							);
 							if (m_import) {
 								m_name = m_import.local.name;
 							}
 						}
 					},
-				}
+				},
 			);
 			if (!m_name) return code;
 			const source = new MagicString(code);
@@ -71,25 +71,27 @@ export const unpluginFactory: UnpluginFactory<Options> = ({ outdir }) => ({
 								const key = code
 									.substring(
 										node.callee.start,
-										node.callee.end
+										node.callee.end,
 									)
 									.replace(`${m_name}.`, '');
 								source.update(
 									node.callee.start,
 									node.callee.end,
-									`${m_name}['${key}']`
+									`${m_name}['${key}']`,
 								);
 							}
 						}
 						next();
 					},
-				}
+				},
 			);
 			return {
 				code: source.toString(),
 				map: source.generateMap({ hires: true }),
 			};
-		} catch {}
+		} catch {
+			/* empty */
+		}
 		return code;
 	},
 });

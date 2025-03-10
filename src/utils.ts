@@ -1,5 +1,5 @@
 export function add_additional_files<
-	T extends { additionalFiles?: Record<string, string> }
+	T extends { additionalFiles?: Record<string, string> },
 >(args: T): T {
 	return {
 		...args,
