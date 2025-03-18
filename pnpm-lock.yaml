@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@inlang/paraglide-js':
-        specifier: 2.0.0
-        version: 2.0.0
+        specifier: 2.0.1
+        version: 2.0.1
       magic-string:
         specifier: ^0.30.17
         version: 0.30.17
@@ -324,22 +324,22 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@inlang/paraglide-js@2.0.0':
-    resolution: {integrity: sha512-ufe/k4tfBIQrJf6X1L+KGtvHYRhvDPX53m7vVe+IOYs0DkyR7RkBgwPBQb3kbXKpr5atCD+D2BDh/I7EpK5Clg==}
+  '@inlang/paraglide-js@2.0.1':
+    resolution: {integrity: sha512-k/CkNqP4Hbg4K1mRfgsGjsU4ZE7dPNtxdgO2uEigF0Z/kwpXqhsyaTj2xhcu53yECpbnEkW9cct1rNYReIRmYw==}
     hasBin: true
 
   '@inlang/recommend-sherlock@0.2.1':
     resolution: {integrity: sha512-ckv8HvHy/iTqaVAEKrr+gnl+p3XFNwe5D2+6w6wJk2ORV2XkcRkKOJ/XsTUJbPSiyi4PI+p+T3bqbmNx/rDUlg==}
 
-  '@inlang/sdk@2.4.2':
-    resolution: {integrity: sha512-EqL32PcFHOlXWEg2o0nftSBZ376tSxuAhV8uTZoaq521AKSRMEvjTpVsJ9eS6ZJDCRiIXx7avtsdVNwkUntf8A==}
+  '@inlang/sdk@2.4.3':
+    resolution: {integrity: sha512-ClA8zk/4dQEI7HDVhrEFUsG3sZ+KixI+voncAVQ/xoE5aJnSYer6jWIDkMFx2HRoJV4shmIMOL5gZNgv6uDKIA==}
     engines: {node: '>=18.0.0'}
 
   '@jridgewell/sourcemap-codec@1.5.0':
     resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
 
-  '@lix-js/sdk@0.4.2':
-    resolution: {integrity: sha512-wrQQMAZzOxQEAssxUnajn7Djua98MlIzs+V6GdX51VN6b7iA3qvZJY4L9xEEMh0nRFvpAO3wOt7uBth9580pog==}
+  '@lix-js/sdk@0.4.3':
+    resolution: {integrity: sha512-7SfVz55vLDc7u2ZqPFko2xPwTtxJcxu+mdQs4XBDeFmnllqh3wTFSgr3Wpt09PR0jj4gz4+uGOWV+Yt5EfNw/w==}
     engines: {node: '>=21'}
 
   '@lix-js/server-api-schema@0.1.1':
@@ -1523,10 +1523,10 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@inlang/paraglide-js@2.0.0':
+  '@inlang/paraglide-js@2.0.1':
     dependencies:
       '@inlang/recommend-sherlock': 0.2.1
-      '@inlang/sdk': 2.4.2
+      '@inlang/sdk': 2.4.3
       commander: 11.1.0
       consola: 3.4.0
       json5: 2.2.3
@@ -1539,9 +1539,9 @@ snapshots:
     dependencies:
       comment-json: 4.2.5
 
-  '@inlang/sdk@2.4.2':
+  '@inlang/sdk@2.4.3':
     dependencies:
-      '@lix-js/sdk': 0.4.2
+      '@lix-js/sdk': 0.4.3
       '@sinclair/typebox': 0.31.28
       kysely: 0.27.6
       sqlite-wasm-kysely: 0.3.0(kysely@0.27.6)
@@ -1551,7 +1551,7 @@ snapshots:
 
   '@jridgewell/sourcemap-codec@1.5.0': {}
 
-  '@lix-js/sdk@0.4.2':
+  '@lix-js/sdk@0.4.3':
     dependencies:
       '@lix-js/server-api-schema': 0.1.1
       dedent: 1.5.1
