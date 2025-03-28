@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@inlang/paraglide-js':
-        specifier: 2.0.6
-        version: 2.0.6
+        specifier: 2.0.7
+        version: 2.0.7
       magic-string:
         specifier: ^0.30.17
         version: 0.30.17
@@ -324,15 +324,15 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@inlang/paraglide-js@2.0.6':
-    resolution: {integrity: sha512-hvSrtUwgYnEsfQXqQCCAqFhvmp6mIhvDiV0Z8l5y8kiTv4JxNWwjQTuwom1YD9Hmfk7JoKwJPSFHXSjWKULPrg==}
+  '@inlang/paraglide-js@2.0.7':
+    resolution: {integrity: sha512-+YOQZuK1KAdeqovDiNqNEgYiSmIp/ACizz2Ms58KXIofJisRyuChweDAYQva98F7Hd/LEUPQWeWpdxPMl+R3Xg==}
     hasBin: true
 
   '@inlang/recommend-sherlock@0.2.1':
     resolution: {integrity: sha512-ckv8HvHy/iTqaVAEKrr+gnl+p3XFNwe5D2+6w6wJk2ORV2XkcRkKOJ/XsTUJbPSiyi4PI+p+T3bqbmNx/rDUlg==}
 
-  '@inlang/sdk@2.4.5':
-    resolution: {integrity: sha512-3zlc2llEQGeQALSEz5sZ9MdqDpFiZCxwgqNtt5QA46KD7DIp2bh7VD5kmUKifyNzDxiIk1r4liAxIgCvgC2m5w==}
+  '@inlang/sdk@2.4.6':
+    resolution: {integrity: sha512-Oh0MEWHE1VneS82MHUt8ieFoyGMMlM0mwTI1t2rMG+KBJjCEoSpUCc58IkE3K4c+3p0L5U4PcBTL0D7ebzjcbA==}
     engines: {node: '>=18.0.0'}
 
   '@jridgewell/sourcemap-codec@1.5.0':
@@ -1523,10 +1523,10 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@inlang/paraglide-js@2.0.6':
+  '@inlang/paraglide-js@2.0.7':
     dependencies:
       '@inlang/recommend-sherlock': 0.2.1
-      '@inlang/sdk': 2.4.5
+      '@inlang/sdk': 2.4.6
       commander: 11.1.0
       consola: 3.4.0
       json5: 2.2.3
@@ -1539,7 +1539,7 @@ snapshots:
     dependencies:
       comment-json: 4.2.5
 
-  '@inlang/sdk@2.4.5':
+  '@inlang/sdk@2.4.6':
     dependencies:
       '@lix-js/sdk': 0.4.5
       '@sinclair/typebox': 0.31.28
