@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@inlang/paraglide-js':
-        specifier: 2.0.7
-        version: 2.0.7
+        specifier: 2.0.8
+        version: 2.0.8
       magic-string:
         specifier: ^0.30.17
         version: 0.30.17
@@ -324,8 +324,8 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@inlang/paraglide-js@2.0.7':
-    resolution: {integrity: sha512-+YOQZuK1KAdeqovDiNqNEgYiSmIp/ACizz2Ms58KXIofJisRyuChweDAYQva98F7Hd/LEUPQWeWpdxPMl+R3Xg==}
+  '@inlang/paraglide-js@2.0.8':
+    resolution: {integrity: sha512-DlzpXFV/21xSv79yYYevvCcUhtu78fpGp66NUZvZCs7vWckzew3FZoKMbKlYRKoxTnJFsJmnb+4rBhZoqYnPJw==}
     hasBin: true
 
   '@inlang/recommend-sherlock@0.2.1':
@@ -1523,7 +1523,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@inlang/paraglide-js@2.0.7':
+  '@inlang/paraglide-js@2.0.8':
     dependencies:
       '@inlang/recommend-sherlock': 0.2.1
       '@inlang/sdk': 2.4.6
