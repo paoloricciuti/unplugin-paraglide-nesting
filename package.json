@@ -56,7 +56,7 @@
 		"vite": "^6.2.0"
 	},
 	"dependencies": {
-		"@inlang/paraglide-js": "2.1.0",
+		"@inlang/paraglide-js": "2.2.0",
 		"magic-string": "^0.30.17",
 		"unplugin": "^2.2.0",
 		"zimmerframe": "^1.1.2"
